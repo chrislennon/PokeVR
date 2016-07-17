@@ -36,6 +36,7 @@ public class SteamVR_ControllerManager : MonoBehaviour
 			indices[2 + i] = OpenVR.k_unTrackedDeviceIndexInvalid;
 		}
 		this.objects = objects;
+
 	}
 
 	void OnEnable()
@@ -43,15 +44,19 @@ public class SteamVR_ControllerManager : MonoBehaviour
 		for (int i = 0; i < objects.Length; i++)
 		{
 			var obj = objects[i];
-			if (obj != null)
-				obj.SetActive(false);
+			if (obj != null) {
+				obj.SetActive (false);
+				print (obj); //both
+			}
 		}
 
 		OnTrackedDeviceRoleChanged();
 
 		for (int i = 0; i < SteamVR.connected.Length; i++)
-			if (SteamVR.connected[i])
-				OnDeviceConnected(i, true);
+			if (SteamVR.connected [i]) {
+				OnDeviceConnected (i, true);
+
+			}
 
 		SteamVR_Utils.Event.Listen("input_focus", OnInputFocus);
 		SteamVR_Utils.Event.Listen("device_connected", OnDeviceConnected);
@@ -105,6 +110,7 @@ public class SteamVR_ControllerManager : MonoBehaviour
 		hidden.parent = t.parent;
 		t.parent = hidden;
 		hidden.gameObject.SetActive(false);
+		print ("hide " + name);
 	}
 	private void ShowObject(Transform t, string name)
 	{
@@ -125,8 +131,10 @@ public class SteamVR_ControllerManager : MonoBehaviour
 				if (i != objectIndex && indices[i] == trackedDeviceIndex)
 				{
 					var obj = objects[i];
-					if (obj != null)
-						obj.SetActive(false);
+					if (obj != null) {
+						obj.SetActive (false);
+
+					}
 
 					indices[i] = OpenVR.k_unTrackedDeviceIndexInvalid;
 				}
@@ -166,6 +174,8 @@ public class SteamVR_ControllerManager : MonoBehaviour
 		this.connected[index] = false;
 
 		var connected = (bool)args[1];
+		//check connect 1~4
+		// print ("OnDeviceConnected "+index+" value:"+connected);
 		if (connected)
 		{
 			var system = OpenVR.System;
@@ -199,7 +209,8 @@ public class SteamVR_ControllerManager : MonoBehaviour
 				if (connected[deviceIndex])
 				{
 					SetTrackedDeviceIndex(objectIndex++, deviceIndex);
-					break;
+					print ("deviceIndex " + deviceIndex);
+					continue;
 				}
 			}
 		}
