@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 66cf2b61c2fe98644b82709984f68929
+timeCreated: 1468681616
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: onidrill_mat_0
+    100004: onidrill_mat_1
+    100006: onidrill_mat_10
+    100008: onidrill_mat_11
+    100010: onidrill_mat_12
+    100012: onidrill_mat_13
+    100014: onidrill_mat_14
+    100016: onidrill_mat_14_NONE
+    100018: onidrill_mat_2
+    100020: onidrill_mat_3
+    100022: onidrill_mat_4
+    100024: onidrill_mat_5
+    100026: onidrill_mat_6
+    100028: onidrill_mat_7
+    100030: onidrill_mat_8
+    100032: onidrill_mat_9
+    400000: //RootNode
+    400002: onidrill_mat_0
+    400004: onidrill_mat_1
+    400006: onidrill_mat_10
+    400008: onidrill_mat_11
+    400010: onidrill_mat_12
+    400012: onidrill_mat_13
+    400014: onidrill_mat_14
+    400016: onidrill_mat_14_NONE
+    400018: onidrill_mat_2
+    400020: onidrill_mat_3
+    400022: onidrill_mat_4
+    400024: onidrill_mat_5
+    400026: onidrill_mat_6
+    400028: onidrill_mat_7
+    400030: onidrill_mat_8
+    400032: onidrill_mat_9
+    2300000: onidrill_mat_0
+    2300002: onidrill_mat_1
+    2300004: onidrill_mat_10
+    2300006: onidrill_mat_11
+    2300008: onidrill_mat_12
+    2300010: onidrill_mat_13
+    2300012: onidrill_mat_14
+    2300014: onidrill_mat_14_NONE
+    2300016: onidrill_mat_2
+    2300018: onidrill_mat_3
+    2300020: onidrill_mat_4
+    2300022: onidrill_mat_5
+    2300024: onidrill_mat_6
+    2300026: onidrill_mat_7
+    2300028: onidrill_mat_8
+    2300030: onidrill_mat_9
+    3300000: onidrill_mat_0
+    3300002: onidrill_mat_1
+    3300004: onidrill_mat_10
+    3300006: onidrill_mat_11
+    3300008: onidrill_mat_12
+    3300010: onidrill_mat_13
+    3300012: onidrill_mat_14
+    3300014: onidrill_mat_14_NONE
+    3300016: onidrill_mat_2
+    3300018: onidrill_mat_3
+    3300020: onidrill_mat_4
+    3300022: onidrill_mat_5
+    3300024: onidrill_mat_6
+    3300026: onidrill_mat_7
+    3300028: onidrill_mat_8
+    3300030: onidrill_mat_9
+    4300000: onidrill_mat_4
+    4300002: onidrill_mat_14
+    4300004: onidrill_mat_10
+    4300006: onidrill_mat_13
+    4300008: onidrill_mat_12
+    4300010: onidrill_mat_3
+    4300012: onidrill_mat_14_NONE
+    4300014: onidrill_mat_2
+    4300016: onidrill_mat_1
+    4300018: onidrill_mat_11
+    4300020: onidrill_mat_0
+    4300022: onidrill_mat_7
+    4300024: onidrill_mat_9
+    4300026: onidrill_mat_6
+    4300028: onidrill_mat_8
+    4300030: onidrill_mat_5
+    6400000: onidrill_mat_0
+    6400002: onidrill_mat_1
+    6400004: onidrill_mat_10
+    6400006: onidrill_mat_11
+    6400008: onidrill_mat_12
+    6400010: onidrill_mat_13
+    6400012: onidrill_mat_14
+    6400014: onidrill_mat_14_NONE
+    6400016: onidrill_mat_2
+    6400018: onidrill_mat_3
+    6400020: onidrill_mat_4
+    6400022: onidrill_mat_5
+    6400024: onidrill_mat_6
+    6400026: onidrill_mat_7
+    6400028: onidrill_mat_8
+    6400030: onidrill_mat_9
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
