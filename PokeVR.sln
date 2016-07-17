@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeVR.CSharp.Plugins", "PokeVR.CSharp.Plugins.csproj", "{83B493CC-BA5B-0D50-79F5-102603D233AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeVR.CSharp", "PokeVR.CSharp.csproj", "{CCE9EC82-3F6F-9DCC-E6A5-3D2856350FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeVR.CSharp.Editor", "PokeVR.CSharp.Editor.csproj", "{9B50A629-5921-5D50-E338-41AD98306138}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83B493CC-BA5B-0D50-79F5-102603D233AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B493CC-BA5B-0D50-79F5-102603D233AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B493CC-BA5B-0D50-79F5-102603D233AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B493CC-BA5B-0D50-79F5-102603D233AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE9EC82-3F6F-9DCC-E6A5-3D2856350FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE9EC82-3F6F-9DCC-E6A5-3D2856350FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE9EC82-3F6F-9DCC-E6A5-3D2856350FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE9EC82-3F6F-9DCC-E6A5-3D2856350FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B50A629-5921-5D50-E338-41AD98306138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B50A629-5921-5D50-E338-41AD98306138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B50A629-5921-5D50-E338-41AD98306138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B50A629-5921-5D50-E338-41AD98306138}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
